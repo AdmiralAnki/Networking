@@ -30,6 +30,8 @@ public struct NetHelper{
             }
         }
         
+        urlRequest.httpBody = endpoint.httpBody
+        
         return urlRequest
     }
 }
